@@ -16,9 +16,11 @@ It consists of 4 parts :
 - **Statement** : Statement is the inner part of the loop, which is executed until the condition part of the loop remains true.
 
 Syntax : 
-`for (initialization;condition;increment/decrement){`
-    `//statement(s)`
-`}`
+```java
+for (initialization;condition;increment/decrement){
+    //statement(s)
+}
+```
 
 ---
 
@@ -27,9 +29,11 @@ Syntax :
 Used to iterate through elements of arrays and collections (like ArrayList). It is also known as the enhanced for loop.
 
 Syntax : 
-`for(datatype item : array) { `
-    `//statement(s)`
-`}`
+```java
+for(datatype item : array) {
+    //statement(s)
+}
+```
 
 where, 
 array : an array or a collection
@@ -43,9 +47,11 @@ dataType : the data type of the array/collection
 While lpop is used to run a specific code until a certain condition is met.
 
 Syntax : 
-`while (testExpression) { `
-    `//body of loop `
-`}`
+```java
+while (testExpression) { 
+    //body of loop 
+}
+```
 
 where, 
 testExpression : is the condition which is checked before the execution of the loop happens.
@@ -57,8 +63,9 @@ testExpression : is the condition which is checked before the execution of the l
 do while loop is similar to the while loop, the only difference being that the body of the do while loop is executed atleast once, before the condition is checked.
 
 Syntax : 
-`do { `
-    `//body of the loop`
-`} while(testExpression)`
-
+```java
+do { 
+    //body of the loop
+} while(testExpression)
+```
 ---
